@@ -1,0 +1,16 @@
+{
+  // see: https://www.npmjs.com/package/@tsconfig/node16-strictest
+  "extends": "@tsconfig/node16-strictest",
+  "compilerOptions": {
+    // Uncommenting this gets rid of the error in src/index.ts
+    // "exactOptionalPropertyTypes": false,
+    "baseUrl": "./",
+    "outDir": "./dist/",
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+}

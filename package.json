@@ -1,0 +1,19 @@
+{
+  "name": "api-ts-compile-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@api-ts/io-ts-http": "^1.0.0",
+    "@api-ts/superagent-wrapper": "^1.0.0",
+    "@tsconfig/node16-strictest": "^1.0.4",
+    "io-ts": "^2.1.3",
+    "superagent": "^8.0.3",
+    "typescript": "^4.7.4"
+  }
+}
